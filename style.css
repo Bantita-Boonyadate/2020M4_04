@@ -13,3 +13,11 @@ body .container {
     border: none;
     font-size: 16px;
 }
+.card-img .card-img-top {
+    width: 15rem;
+    height: 15rem;
+}
+.card-detail .card-body {
+    padding-left: 0;
+    text-align: left;
+}
