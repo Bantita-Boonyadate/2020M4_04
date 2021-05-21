@@ -17,10 +17,6 @@ body .container {
     width: 15rem;
     height: 15rem;
 }
-.card-detail .card-body {
-    padding-left: 0;
-    text-align: left;
-}
 .pagination {
     justify-content: center;
 }
@@ -28,22 +24,18 @@ body .container {
     color: black;
 }
 @media screen and (min-width: 992px) {
-    .col-9 {
-        width: 85%;
+    .col-lg-4col-md-6col-sm-12 {
+        width: 100%;
     }
 }
-@media screen (min-width: 768px)  and (max-width: 992px) {
-    .col-9 {
+@media screen and (min-width: 768px)  and (max-width: 992px) {
+    .col-lg-4col-md-6col-sm-12 {
         width: 65%;
     }
+    
 }
-@media screen (min-width: 576px)  and (max-width: 768px) {
-    .col-9 {
+@media screen and (min-width: 576px)  and (max-width: 768px) {
+    .col-lg-4col-md-6col-sm-12 {
         width: 45%;
-    }
-}
-@media screen and (max-width: 991px) {
-    .list-group-flush {
-        border-style: none;
     }
 }
